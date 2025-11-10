@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>长沙理工大学金盆岭校区周边美食</title>
+    <style>
+        body {
+            font-family: "Microsoft YaHei", sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f8f9fa;
+        }
+       .header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        h1 {
+            color: #333;
+            margin: 0 0 30px 0;
+            font-weight: bold;
+        }
+       .student-info {
+            text-align: center;
+            margin-bottom: 20px;
+            font-size: 18px;
+            font-weight: 500;
+        }
+       .food-container {
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+       .food-item {
+            background-color: white;
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 25px;
+            display: flex;
+            align-items: center;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease;
+        }
+       .food-item:hover {
+            transform: translateY(-5px);
+        }
+       .food-item img {
+            width: 220px;
+            height: 180px;
+            object-fit: cover;
+            border-radius: 8px;
+            margin-right: 25px;
+            border: 2px solid #f0f0f0;
+            object-position: center;
+        }
+       .food-info h2 {
+            margin-top: 0;
+            color: #333;
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+       .food-info p {
+            color: #666;
+            line-height: 1.6;
+            margin: 0 0 8px 0;
+        }
+        a {
+            text-decoration: underline;
+            color: #007bff;
+            font-weight: 500;
+        }
+        a:hover {
+            color: #0056b3;
+        }
+        @media (max-width: 768px) {
+           .food-item {
+                flex-direction: column;
+                text-align: center;
+            }
+           .food-item img {
+                margin-right: 0;
+                margin-bottom: 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- 顶部个人信息+标题 -->
+    <div class="header">
+        <div class="student-info">
+            姓名: 向妍 | 学号: 202425180121
+        </div>
+        <h1>长沙理工大学金盆岭校区周边美食</h1>
+    </div>
+
+    <div class="food-container">
+        <!-- 麦当劳门店 -->
+        <div class="food-item">
+            <img src="https://images.unsplash.com/photo-1554118811-1e0d58224f24?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="麦当劳门店实拍">
+            <div class="food-info">
+                <h2>麦当劳（长沙理工大学金盆岭校区东南2门体育馆门）</h2>
+                <p>📍 地址：长沙市天心区赤岭路45号东南2门体育馆门对面</p>
+                <p>🕒 营业时间：5:00-23:00 | 💰 人均：25-40元</p>
+                <p>📱 推荐菜品：双层吉士堡、薯条</p>
+                <p>✨ 特色：近体育馆门，通勤/运动后就餐超方便，支持校园专享优惠（凭学生证享套餐85折），环境干净整洁，设有充电插座和舒适座位，适合自习间隙补充能量。</p>
+                <p>💡 点击查看：<a href="https://www.mcdonalds.com.cn/menu" target="_blank">麦当劳全品类菜单</a></p>
+            </div>
+        </div>
+
+        <!-- 双层吉士汉堡（Pexels稳定实拍图：双层肉饼+融化芝士） -->
+        <div class="food-item">
+            <img src="https://images.pexels.com/photos/1639565/pexels-photo-1639565.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&dpr=1" alt="双层吉士汉堡实拍">
+            <div class="food-info">
+                <h2>双层吉士汉堡</h2>
+                <p>🍔 核心配料：双层100%纯牛肉饼+双层香浓芝士片+酸黄瓜+经典酱汁+松软芝麻面包胚</p>
+                <p>👅 口感体验：牛肉饼鲜嫩多汁，芝士融化拉丝，酸黄瓜清爽解腻，层次丰富且饱腹感强，是经典主食选择。</p>
+                <p>💡 学生党优选：单点约15元，搭配可乐+薯条的套餐性价比更高，自习、上课前快速补充能量超合适。</p>
+            </div>
+        </div>
+
+        <!-- 薯条 -->
+        <div class="food-item">
+            <img src="https://images.unsplash.com/photo-1551782450-17144efb9c50?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="麦当劳薯条实拍">
+            <div class="food-info">
+                <h2>金黄酥脆薯条</h2>
+                <p>🥔 核心配料：精选马铃薯切条，低温油炸后撒少许盐粒</p>
+                <p>👅 口感体验：外脆内糯、薯香浓郁，盐味适中，搭配番茄酱风味更佳，趁热吃口感最佳。</p>
+                <p>💡 学生党优选：小份仅8元，可作餐前小吃或汉堡配菜，追剧、自习时解馋超合适，分量足性价比高。</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
